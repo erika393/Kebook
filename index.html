@@ -1,0 +1,136 @@
+<html style="width: 100%;">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kebook | Onde voce aprende, ensina e empreende melhor</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.ico" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+
+  <body class="text-white">
+    <header>
+      <nav class="nav">
+        <div class="nav-header d-inline-block">
+          <img src="assets/img/logo.png" alt="logo"/>
+        </div>
+        <div class="nav-btn d-none" onclick="clickNavBtn()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="container-nav float-end">
+          <div class="modal">
+            <div class="row header-container-nav">
+              <div class="col col-1 logo-container-nav">
+                <img src="assets/img/orange-logo.jpeg" alt="logo" />
+              </div>
+              <div class="col col-2 close-container-nav">
+                <button onclick="clickCloseNavLinks()">
+                  <i
+                    class="fa-solid fa-x icon-close-nav-links"
+                  ></i>
+                </button>
+              </div>
+            </div>
+            <div class="nav-links d-flex align-center">
+              <div class="dropdown d-inline-block">
+                <a class="dropdown-btn" onclick="clickDropdownBtn()" >Categorias 
+                  <i class="fa-solid fa-bars"></i>
+                </a>
+                <a class="dropdown-btn-close" onclick="clickDropdownBtnClose()" style="display: none;">Categorias 
+                  <i class="fa-solid fa-caret-up"></i>
+                </a>
+                <ul class="dropdown-menu bg-white d-none">
+                  <li><a href="#">Item 1</a></li>
+                  <li><a href="#">Item 2</a></li>
+                  <li><a href="#">Item 3</a></li>
+                </ul>
+              </div>
+              <a >Home</ac>
+              <a>Sobre</a>
+              <a>Instrutor</a>
+              <a>Afiliado</a>
+              <a>Suporte</a>
+              <a>Carreiras</a>
+              <button class="btn-search text-white" onclick="clickBtnSearchInput()">
+                <i class="fa-solid fa-magnifying-glass" ></i>
+              </button>
+              <input class="search-input d-none" type="text" name="search">
+              <button class="btn-login-register text-white"><i class="fa-solid fa-user"></i> Login | Increver-se</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section-1">
+      <div class="container">
+        <div class="col col-1 float-start">
+          <h2>Investir em<br> Seu <b>Futuro</b></h2>
+          <p class="p-description">
+            A Kebook tem os cursos online que você precisa para ser o profissional que o mercado de hoje procura.
+          </p>
+          <br>
+          <a class="btn-buy d-inline-block">Compre um curso</a>
+          <a class="btn-learn d-inline-block">Comece a ensinar agora mesmo</a>
+          <p class="p-register">
+            Tem cadastro na Kebook? <b style="text-decoration: underline;">Acesse seu perfil</b>
+          </p>
+        </div>
+        <div class="col col-2">
+          <img src="assets/img/person-rocket.png" />
+        </div>
+      </div>
+    </section>
+    <section class="section-2 row">
+        <div class="col col-1">
+          <img src="assets/img/icon-1.png">
+          <h1>Aprenda com especialistas</h1>
+          <p>Selecione cursos dos melhores instrutores do mercado.</p>
+        </div>
+        <div class="col col-2">
+          <img src="assets/img/icon-2.png">
+          <h1>Maior empregabilidade</h1>
+          <p>Invista no desenvolvimento da sua carreira e vida pessoal.</p>
+        </div>
+        <div class="col col-3">
+          <img src="assets/img/icon-3.png">
+          <h1>Siga no seu próprio ritmo</h1>
+          <p>Defina seu ritmo de estudo conforme à sua disponilidade.</p>
+        </div>
+        <div class="col col-4">
+          <img src="assets/img/icon-4.png">
+          <h1>Torne-se um instrutor</h1>
+          <p>Possua as ferramentas ideais para ensinar o que você ama.</p>
+        </div>
+    </section>
+
+    <footer class="bg-white text-black text-center">
+      <div class="col-1 d-inline-block">
+        <img src="assets/img/orange-logo.jpeg">
+        <p>
+          Uma idealizadora digital focada em transformar a vida das pessoas através do conhecimento e das novas experiências.
+        </p>
+      </div>
+      <div class="col-2 d-inline-block">
+        <h1>Redes Sociais</h1>
+        <a href="https://www.facebook.com/kebookoficial"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/kebook.com.br/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/c/MarketingDigitalKeBooK"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/company/kebook/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </footer>
+  </body>
+
+  <script src="assets/js/script.js"></script>
+</html>

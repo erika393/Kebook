@@ -1,0 +1,414 @@
+body {
+    background-color: #f2962c;
+    font-family: system-ui;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: inline-block;
+}
+
+a {
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-black {
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    justify-content: end;
+    align-items: end;
+}
+
+.float-start {
+    float: left;
+}
+
+.float-end {
+    float: right;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-none {
+    display: none;
+}
+
+header {
+    position: absolute;
+    width: 90%;
+    padding-top: 2em;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav .nav-header img {
+    width: 10em;
+}
+
+.nav .nav-links a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.nav .nav-links a:hover,
+.nav .nav-links .active {
+    border-bottom: 2px solid white;
+    font-weight: 600;
+}
+
+
+/*Dropdown Category*/
+
+.dropdown-menu {
+    position: absolute;
+    list-style: none;
+    border: 1px solid #ff4600;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.dropdown-menu li a {
+    color: black;
+}
+
+
+/*End Dropdown Category*/
+
+.btn-search {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-input {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.btn-login-register {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 1em;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.btn-login-register:hover {
+    background-color: #fff;
+    color: #ff4600;
+    animation: esmaecer 1s 1;
+}
+
+@keyframes leftAnimation {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 300px;
+    }
+}
+
+@keyframes esmaecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* CSS Section-1*/
+
+.section-1 {
+    background-image: url(../img/back-top.png);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.section-1 h2 {
+    font-size: 4em;
+    font-weight: 100;
+}
+
+.section-1 .container {
+    margin: auto;
+    max-width: fit-content;
+}
+
+.section-1 .container .col-1 {
+    width: 50%;
+    min-width: 300px;
+    max-width: 700px;
+    padding: 50px;
+    padding-left: 5em;
+}
+
+.section-1 .container .col-1 .p-description {
+    font-size: 1.25rem;
+    margin-top: -2em;
+}
+
+.section-1 .container .col-2 img {
+    min-width: 280px;
+}
+
+.btn-buy {
+    border: 2px solid #ff4600;
+    background-color: #ff4600;
+    border-radius: 45px;
+    padding: 1em 2em;
+    font-weight: 600;
+}
+
+.btn-buy:hover {
+    color: #fff;
+    border: 1px solid rgba(255, 69, 0, 0.5);
+    background-color: rgba(255, 69, 0, 0.5);
+    animation: esmaecer 0.5s 1;
+}
+
+.btn-learn {
+    border: 2px solid white;
+    border-radius: 45px;
+    padding: 1em 2em;
+    margin: auto;
+    font-weight: 600;
+}
+
+.btn-learn:hover {
+    background-color: #fff;
+    color: #ff4600;
+    animation: esmaecer 0.5s 1;
+}
+
+
+/* CSS Section-2*/
+
+.section-2 {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 5em 2em;
+    margin-top: -3em;
+    width: 100%;
+}
+
+.section-2 img {
+    width: 80px;
+}
+
+.section-2 .col {
+    margin: auto;
+    width: 300px;
+}
+
+
+/*Footer*/
+
+footer {
+    margin-top: 5em;
+    padding: 2em;
+    width: 100%;
+}
+
+footer .col-1 img {
+    width: 12em;
+}
+
+footer .col-1 p {
+    font-size: 1.5em;
+    max-width: 600px;
+}
+
+footer .col-1,
+footer .col-2 {
+    vertical-align: middle;
+    padding: 1em 5em;
+}
+
+footer .col-2 a {
+    padding: 0em 2em;
+}
+
+footer .col-2 a i:hover {
+    background-color: #f2962c;
+    border: 2px solid #f2962c;
+    color: #fff;
+}
+
+footer .col-2 i {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    border-radius: 5em;
+    padding: 0.4em;
+    margin: 10px;
+}
+
+@media(min-width:1185px) {
+    .nav .container-nav .header-container-nav {
+        display: none;
+    }
+    .section-1 .container .col-2 img {
+        width: 28em;
+        margin-top: 5em;
+        padding-top: 2em;
+    }
+}
+
+@media (max-width:1180px) {
+    .nav .nav-btn {
+        display: inline-block;
+        float: right;
+        padding: 15px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .container-nav {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .container-nav .modal {
+        position: fixed;
+        background-color: #fff;
+        max-width: 300px;
+        padding: 2em;
+        right: 0;
+        height: 100%;
+        text-align: center;
+        animation: leftAnimation 1s 1;
+    }
+    .nav-links {
+        display: block;
+    }
+    .container-nav .logo-container-nav img {
+        width: 100%;
+    }
+    .container-nav .header-container-nav {
+        display: flex;
+    }
+    .header-container-nav .close-container-nav {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    .close-container-nav button {
+        color: black;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+    .container-nav .row .col-1,
+    .container-nav .row .col-2 {
+        width: 50%;
+    }
+    .nav .nav-links a {
+        display: block;
+        color: black;
+        font-weight: 600;
+    }
+    .nav .nav-links {
+        margin-top: 30px;
+    }
+    .btn-search {
+        color: #ff4600;
+        margin-left: -2em;
+    }
+    .search-input {
+        background-color: transparent;
+        border: 1px solid #ff4600;
+        margin: 0;
+        display: inline-block;
+    }
+    .btn-login-register {
+        background-color: #ff4600;
+        border: 1px solid #ff4600;
+        margin: 0;
+        margin-top: 1em;
+        color: #fff;
+    }
+    .btn-login-register:hover {
+        background-color: #ff4600;
+        border: 1px solid #ff4600;
+        color: #fff;
+    }
+    .section-1 {
+        padding-top: 6em;
+    }
+    .section-1 .container .col-1 {
+        padding: 0;
+    }
+    .section-1 .container .col-1 p {
+        width: 18em;
+    }
+    .btn-learn {
+        margin-top: 1.5em;
+    }
+    .section-1 .container .col-2 img {
+        width: 75%;
+        margin-top: 5em;
+        padding-top: 2em;
+        min-width: 280px;
+    }
+}
+
+@media(max-width:420px) {
+    .section-1 .container .col-1 .p-description {
+        font-size: 1rem;
+        margin-top: -2em;
+    }
+    .btn-learn {
+        padding: 1em 1em;
+    }
+}
